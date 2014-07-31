@@ -228,6 +228,14 @@ group :development, :test do
   gem "spring", '1.1.1'
   gem "spring-commands-rspec", '1.0.1'
   gem "spring-commands-spinach", '1.0.0'
+
+  gem 'flay', require: false
+  gem 'excellent', require: false
+  gem 'rubocop', require: false
+  gem 'brakeman', '2.6.1', require: false
+  gem 'yard', require: false
+  gem 'inch', require: false
+  gem 'reek', require: false
 end
 
 group :test do
