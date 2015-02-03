@@ -1,0 +1,38 @@
+
+[43m[33m#[0m[0m[38;5;16m[103m Properly documented, could be improved:                                           [0m[0m
+[33m┃ [0m [33mB [0m [2m[33m↑[0m[0m  Mentionable#create_cross_references!
+[33m┃ [0m [33mB [0m [2m[33m↑[0m[0m  Note.create_cross_reference_note
+[33m┃ [0m [33mB [0m [2m[33m↑[0m[0m  Mentionable#notice_added_references
+[33m┃ [0m [33mB [0m [2m[33m↑[0m[0m  GitPushService#execute
+
+[41m[31m#[0m[0m[38;5;16m[101m Not properly documented:                                                          [0m[0m
+[31m┃ [0m [31mC [0m [2m[31m↗[0m[0m  Network::Graph#place_chain
+
+[48;5;141m[38;5;141m#[0m[0m[38;5;16m[48;5;105m Undocumented:                                                                     [0m[0m
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  SlackMessage
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  ApplicationController
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  ApplicationHelper
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  ProjectsHelper
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  GroupMilestone
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  MergeRequest
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  ProjectWiki
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  ProjectTeam
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  Repository
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  WikiPage
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  Commit
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  Note
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  User
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  Projects::ApplicationController#authenticate_user!
+[38;5;141m┃ [0m [38;5;141mU [0m [2m[38;5;141m↑[0m[0m  Admin::ApplicationController#authenticate_admin!
+
+You might want to look at these files:
+
+[2m┃ [0m[2mapp/controllers/projects/protected_branches_controller.rb[0m
+[2m┃ [0m[2mapp/controllers/admin/broadcast_messages_controller.rb[0m
+[2m┃ [0m[2mapp/controllers/projects/merge_requests_controller.rb[0m
+[2m┃ [0m[2mapp/models/project_services/emails_on_push_service.rb[0m
+[2m┃ [0m[2mapp/models/project_services/pivotaltracker_service.rb[0m
+
+Grade distribution (undocumented, C, B, A):  [38;5;141m█[0m  [31m▁[0m [33m▁[0m [32m▁[0m
+
+[2mOnly considering priority objects: ↑ ↗ →  (use `--help` for options).[0m
