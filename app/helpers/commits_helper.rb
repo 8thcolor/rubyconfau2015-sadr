@@ -96,7 +96,8 @@ module CommitsHelper
   # Return Project default branch, if it present in array
   # Else - first branch in array (mb last actual branch)
   def commit_default_branch(project, branches)
-    branches.include?(project.default_branch) ? branches.delete(project.default_branch) : branches.pop
+    default_branch = project.default_branch
+    branches.include?(default_branch) ? branches.delete(default_branch) : branches.pop
   end
 
   # Returns the sorted alphabetically links to branches, separated by a comma
